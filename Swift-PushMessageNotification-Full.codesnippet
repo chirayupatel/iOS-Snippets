@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>pmnc</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>// Create notification topic
+        let pushNotificationTopic = PushMessage.CompleteNotificationType(&lt;#T##entity: PushMessageEntity##PushMessageEntity#&gt;, action: &lt;#T##PushMessageAction#&gt;, rawAction: &lt;#T##String#&gt;)
+        // Register for notification and store token for later removal
+        let pushToken = NSNotificationCenter.defaultCenter().addObserverForName(pushNotificationTopic, object: &lt;#T##AnyObject?#&gt;, queue: &lt;#T##NSOperationQueue?#&gt;) { (notification) -&gt; Void in
+            &lt;#code#&gt;
+        }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>5EF4F6EE-F94F-4BF6-BFC1-71C951A672A1</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Registers for a push message notification using the complete notification type</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Push Message Notification (Full)</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

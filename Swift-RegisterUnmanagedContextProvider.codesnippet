@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>umcp</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>// Register an unmanaged provider (result can be ignored)
+        let provider = ContextManager.sharedManager.registerUnmanagedContextProvider(&lt;#T##provider: ContextProvider##ContextProvider#&gt;, priority: &lt;#T##ContextDataPriority#&gt;, pollFrequency: &lt;#T##Int32?#&gt;, uploadFrequency: &lt;#T##Int32#&gt;)</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>29911738-EA81-446F-8CEF-AB4C8AF81F30</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Register a context provider that does not need to be monitored</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Register Unmanaged Context Provider</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>zrq</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>// Construct a ZonesQuery
+        let query = ZonesQuery(limit: &lt;#T##UInt#&gt;, offset: &lt;#T##UInt#&gt;)
+        // Execute a request
+        ZoneRequest.Query(&lt;#T##ZonesQuery#&gt;, completion: &lt;#T##(zones: [Zone], pagination: Pager?, error: NSError?) -&gt; Void#&gt;).execute()</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>471E27AE-9CD3-487D-85A1-2FCA9FD744D0</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>A request for a list of Zones using the default ZonesQuery</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Zone Request (Query)</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

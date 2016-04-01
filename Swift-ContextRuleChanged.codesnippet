@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>crc</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>// Register for RuleChanged notifications
+        let token = NSNotificationCenter.defaultCenter().addObserverForName(ContextManager.Constants.ContextRuleChanged, object: &lt;#T##AnyObject?#&gt;, queue: &lt;#T##NSOperationQueue?#&gt;) { (notification) -&gt; Void in
+            // Retrieve rule from userInfo
+            if let rule = (notification.userInfo as? [String : FlybitsSDK.Rule])?[ContextManager.Constants.ContextRule], ruleName = rule.name {
+                &lt;#code#&gt;
+            }
+        }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>35337027-FF9B-41A0-8AA9-C606749D825A</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Register for RuleChanged Notifications</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Context Rule Changed Notification</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

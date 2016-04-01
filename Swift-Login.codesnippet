@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>login</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>SessionRequest.Login(email: &lt;#T##String#&gt;, password: &lt;#T##String#&gt;, rememberMe: &lt;#T##Bool#&gt;, completion: &lt;#T##(user: User?, error: NSError?) -&gt; Void#&gt;).execute()</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>A711E3E5-2AEE-45CB-9FE1-661FA92EFA49</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>A request to login using a Flybits username</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Login Request (Flybits)</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
