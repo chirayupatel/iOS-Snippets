@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>pen</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>NSObject *token = [[NSNotificationCenter defaultCenter] addObserverForName:PushManagerConstants.PushErrorTopic object:&lt;#(nullable id)#&gt; queue:&lt;#(nullable NSOperationQueue *)#&gt; usingBlock:^(NSNotification * _Nonnull note) {
+        &lt;#code#&gt;
+    }];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>B8AEC387-5EE3-49FC-B3F0-E4E6D3B41D22</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Registers with NSNotificationCenter for push errors</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Push Error Notification</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

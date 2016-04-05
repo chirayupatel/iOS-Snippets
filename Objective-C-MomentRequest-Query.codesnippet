@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>mrq</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>// Construct a MomentQuery
+    MomentQuery *query = [[MomentQuery alloc] initWithLimit:&lt;#(NSUInteger)#&gt; offset:&lt;#(NSUInteger)#&gt;];
+
+    // Execute a request
+    [APIManager getMoments:query completion:^(NSArray&lt;Moment *&gt; * _Nonnull moments, Pager * _Nullable pager, NSError * _Nullable error) {
+        &lt;#code#&gt;
+    }];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>9E345762-5D3E-4460-A26C-E965F98DB8F7</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>A request for a list of Moments using the default MomentQuery</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Moment Request (Query)</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

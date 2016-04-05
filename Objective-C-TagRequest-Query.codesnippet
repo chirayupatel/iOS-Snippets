@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>trq</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>// Construct a TagQuery
+    TagQuery *query = [[TagQuery alloc] initWithLimit:&lt;#(NSUInteger)#&gt; offset:&lt;#(NSUInteger)#&gt;];
+
+    // Execute a request
+    [APIManager tagAction:query withCompletion:^(NSArray&lt;Tag *&gt; * _Nullable tags, Pager * _Nullable pager, NSError * _Nullable error) {
+        &lt;#code#&gt;
+    }];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>1AC4B91F-75A9-47B4-8B2E-63ED8254C174</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>A request for a list of Tags using the default TagQuery</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Tag Request (Query)</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
