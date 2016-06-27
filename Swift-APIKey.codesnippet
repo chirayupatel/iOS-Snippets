@@ -17,7 +17,7 @@
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Set the API key for the SDK</string>
+	<string>Set the API key for the iOS SDK</string>
 	<key>IDECodeSnippetTitle</key>
 	<string>API Key</string>
 	<key>IDECodeSnippetUserSnippet</key>

@@ -3,24 +3,27 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>umcp</string>
+	<string>rcp</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// Register an unmanaged provider (result can be ignored)
-        let provider = ContextManager.sharedManager.registerUnmanagedContextProvider(&lt;#T##provider: ContextProvider##ContextProvider#&gt;, priority: &lt;#T##ContextDataPriority#&gt;, pollFrequency: &lt;#T##Int32?#&gt;, uploadFrequency: &lt;#T##Int32#&gt;)</string>
+	<string>// Register a context provider (provider is constructed prior to registration)
+        &lt;#Construct a Provider#&gt;
+
+        // If the provider is already registered, that provide will be updated and returned
+        &lt;#(ContextDataProvider)#&gt; = [[ContextManager sharedManager] registerContextProvider:locationProvider error:&amp;error];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>29911738-EA81-446F-8CEF-AB4C8AF81F30</string>
+	<string>E385EF20-46E2-45E6-A24C-169E5E02600B</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Register a context provider that does not need to be monitored</string>
+	<string>Register a pre-constructed provider with the ContextManager</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Register Unmanaged Context Provider</string>
+	<string>Register Context Provider</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -3,23 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>api</string>
+	<string>rsdkp</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[[[Session sharedInstance] configuration] setAPIKey:@"&lt;#API KEY#&gt;"];</string>
+	<string>// Register an SDK provider (result can be ignored)
+        &lt;#(ContextDataProvider)#&gt; *provider = [[ContextManager sharedManager] registerSDKContextProvider:&lt;#(enum ContextProvider)#&gt; priority:&lt;#(enum ContextDataPriority)#&gt; pollFrequency:&lt;#(NSInteger)#&gt; uploadFrequency:&lt;#(NSInteger)#&gt;];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>FBA4DBED-6679-40DE-8C63-0B47B1DB6AAD</string>
+	<string>59D46113-F16D-48F6-91F0-FB7BDEEED315</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Set the API key for the iOS SDK</string>
+	<string>Register a context provider that is provided and monitored by the SDK</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>API Key</string>
+	<string>Register SDK Context Provider</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
