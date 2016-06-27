@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>crc</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>// Register for RuleChanged notifications
+NSObject *token = [[NSNotificationCenter defaultCenter] addObserverForName:ContextManagerConstants.ContextRuleChanged object:&lt;#(nullable id)#&gt; queue:&lt;#(nullable NSOperationQueue *)#&gt; usingBlock:^(NSNotification * _Nonnull note) {
+            Rule *rule = (Rule *)[[notification userInfo] objectForKey:ContextManagerConstants.ContextRule];
+            if(rule == nil) {
+                return;
+            }
+            NSString *ruleName = [rule name];
+            &lt;#code#&gt;
+        }];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>0A15A8D4-4BED-4160-AA26-EC415F053493</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Register for RuleChanged Notifications</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Context Rule Changed Notification</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
