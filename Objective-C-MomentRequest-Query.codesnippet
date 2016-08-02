@@ -25,7 +25,7 @@
 	<key>IDECodeSnippetSummary</key>
 	<string>A request for a list of Moments using the default MomentQuery</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Moment Request (Query)</string>
+	<string>[FLB-ObjC]Moment Request (Query)</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

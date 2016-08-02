@@ -23,7 +23,7 @@
 	<key>IDECodeSnippetSummary</key>
 	<string>Register a pre-constructed provider with the ContextManager</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Register Context Provider</string>
+	<string>[FLB-ObjC]Register Context Provider</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

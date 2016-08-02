@@ -21,7 +21,7 @@
 	<key>IDECodeSnippetSummary</key>
 	<string>A request to login using a Flybits username</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Login Request (Flybits)</string>
+	<string>[FLB-ObjC]Login Request</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

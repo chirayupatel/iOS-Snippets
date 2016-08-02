@@ -20,7 +20,7 @@
 	<key>IDECodeSnippetSummary</key>
 	<string>Register a context provider that is provided and monitored by the SDK</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Register SDK Context Provider</string>
+	<string>[FLB-ObjC]Register SDK Context Provider</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

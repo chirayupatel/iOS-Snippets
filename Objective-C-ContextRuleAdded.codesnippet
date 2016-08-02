@@ -27,10 +27,10 @@ NSObject *token = [[NSNotificationCenter defaultCenter] addObserverForName:Conte
 	<key>IDECodeSnippetSummary</key>
 	<string>Register for RuleAdded Notifications</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Context Rule Added Notification</string>
+	<string>[FLB-ObjC]Context Rule Added Notification</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>

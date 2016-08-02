@@ -12,7 +12,7 @@
 	<string>// Construct a MomentQuery
         let query = MomentQuery(limit: &lt;#T##UInt#&gt;, offset: &lt;#T##UInt#&gt;)
         // Execute a request
-        MomentRequest.Query(&lt;#T##MomentQuery#&gt;, completion: &lt;#T##(moments: [Moment], pagination: Pager?, error: NSError?) -&gt; Void#&gt;).execute()</string>
+        MomentRequest.Query(query, completion: &lt;#T##(moments: [Moment], pagination: Pager?, error: NSError?) -&gt; Void#&gt;).execute()</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>3EFCBD5C-7CF0-4FC7-A73F-84554B39A560</string>
 	<key>IDECodeSnippetLanguage</key>
@@ -22,7 +22,7 @@
 	<key>IDECodeSnippetSummary</key>
 	<string>A request for a list of Moments using the default MomentQuery</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Moment Request (Query)</string>
+	<string>[FLB-Swift]Moment Request (Query)</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

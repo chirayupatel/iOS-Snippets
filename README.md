@@ -2,7 +2,7 @@
 A series of snippets for the Flybits iOS SDK
 
 Installation:
-``cp Swift-APIKey.codesnippet ~/Library/Developer/Xcode/UserData/CodeSnippets``
+``git clone git@github.com:flybits/iOS-Snippets.git &&  cd iOS-Snippets && cp * ~/Library/Developer/Xcode/UserData/CodeSnippets``
 
 These snippets simplify your use of the Flybits SDK, from requesting a list of ``Zones`` to subscribing to ``PushMessage`` topics.
 

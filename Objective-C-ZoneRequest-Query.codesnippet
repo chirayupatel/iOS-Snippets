@@ -25,7 +25,7 @@
 	<key>IDECodeSnippetSummary</key>
 	<string>A request for a list of Zones using the default ZonesQuery</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Zone Request (Query)</string>
+	<string>[FLB-ObjC]Zone Request (Query)</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
