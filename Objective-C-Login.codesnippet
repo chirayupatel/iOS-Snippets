@@ -9,7 +9,7 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[APIManager login:&lt;#(NSString * _Nonnull)#&gt; password:&lt;#(NSString * _Nonnull)#&gt; fetchUserProfile:&lt;#(BOOL)#&gt; withCompletion:^(User * _Nullable, NSError * _Nullable) {
+	<string>[APIManager login:&lt;#(NSString * _Nonnull)#&gt; password:&lt;#(NSString * _Nonnull)#&gt; rememberMe:&lt;#(BOOL)#&gt; withCompletion:^(User *user, NSError *error) {
         &lt;#code#&gt;
     }];</string>
 	<key>IDECodeSnippetIdentifier</key>

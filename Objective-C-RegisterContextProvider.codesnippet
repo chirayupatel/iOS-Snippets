@@ -10,10 +10,11 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>// Register a context provider (provider is constructed prior to registration)
-        &lt;#Construct a Provider#&gt;
+id&lt;ContextDataProvider&gt; provider = &lt;#getContextProvider()#&gt;// [[CoreLocationDataProvider alloc] initAsCoreLocationManager:true withRequiredAuthorization:kCLAuthorizationStatusAuthorizedWhenInUse];
 
-        // If the provider is already registered, that provide will be updated and returned
-        &lt;#(ContextDataProvider)#&gt; = [[ContextManager sharedManager] registerContextProvider:locationProvider error:&amp;error];</string>
+NSError *error = nil;
+// If the provider is already registered, that provide will be updated and returned
+provider = [[ContextManager sharedManager] registerContextProvider:provider error:&amp;error];</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>E385EF20-46E2-45E6-A24C-169E5E02600B</string>
 	<key>IDECodeSnippetLanguage</key>

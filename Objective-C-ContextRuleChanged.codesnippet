@@ -10,7 +10,7 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>// Register for RuleChanged notifications
-NSObject *token = [[NSNotificationCenter defaultCenter] addObserverForName:ContextManagerConstants.ContextRuleChanged object:&lt;#(nullable id)#&gt; queue:&lt;#(nullable NSOperationQueue *)#&gt; usingBlock:^(NSNotification * _Nonnull note) {
+NSObject *token = [[NSNotificationCenter defaultCenter] addObserverForName:ContextManagerConstants.ContextRuleChanged object:&lt;#(nullable id)#&gt; queue:&lt;#(nullable NSOperationQueue *)#&gt; usingBlock:^(NSNotification * _Nonnull notification) {
             Rule *rule = (Rule *)[[notification userInfo] objectForKey:ContextManagerConstants.ContextRule];
             if(rule == nil) {
                 return;
