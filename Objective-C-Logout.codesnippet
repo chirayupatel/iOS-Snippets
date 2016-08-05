@@ -21,7 +21,7 @@
 	<key>IDECodeSnippetSummary</key>
 	<string>A request to logout from Flybits' servers</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Logout Request (Flybits)</string>
+	<string>[FLB-ObjC]Logout Request</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

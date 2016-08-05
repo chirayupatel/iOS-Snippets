@@ -12,7 +12,9 @@
 	<string>// Construct a TagQuery
         let query = TagQuery(limit: &lt;#T##UInt#&gt;, offset: &lt;#T##UInt#&gt;)
         // Execute a request
-        TagsRequest.Query(&lt;#T##TagQuery#&gt;, completion: &lt;#T##(tags: [T]?, pagination: Pager?, error: NSError?) -&gt; Void#&gt;).execute()</string>
+        // query.tagID = ["&lt;#tagId1#&gt;", "&lt;#tagId2#&gt;"]
+
+        TagsRequest.Query(query, completion: &lt;#T##(tags: [T]?, pagination: Pager?, error: NSError?) -&gt; Void#&gt;).execute()</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>900AE467-3217-4D95-9426-5B8ECD54031C</string>
 	<key>IDECodeSnippetLanguage</key>
@@ -22,7 +24,7 @@
 	<key>IDECodeSnippetSummary</key>
 	<string>A request for a list of Tags using the default TagQuery</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Tag Request (Query)</string>
+	<string>[FLB-Swift]Tag Request (Query)</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

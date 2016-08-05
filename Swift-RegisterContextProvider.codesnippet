@@ -9,10 +9,13 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// Register a context provider (provider is constructed prior to registration)
-        var provider = &lt;#Construct a Provider#&gt;
+	<string>        // Register a context provider (provider is constructed prior to registration)
+        var provider: ContextDataProvider = &lt;#Construct a Provider#&gt;// any context data provider conforming to ContextDataProvider
+        // provider.pollFrequency = 2 * 60
+        
         // If the provider is already registered, an updated version will be returned
-        provider = ContextManager.sharedManager.registerContextProvider(provider)</string>
+        provider = try! ContextManager.sharedManager.registerContextProvider(provider)
+</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>D367EC1C-F2C8-41B8-8C97-99E4C9690E3E</string>
 	<key>IDECodeSnippetLanguage</key>
@@ -22,7 +25,7 @@
 	<key>IDECodeSnippetSummary</key>
 	<string>Register a pre-constructed provider with the ContextManager</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Register Context Provider</string>
+	<string>[FLB-Swift]Register Context Provider</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

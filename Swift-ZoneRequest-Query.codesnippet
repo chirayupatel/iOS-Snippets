@@ -11,8 +11,10 @@
 	<key>IDECodeSnippetContents</key>
 	<string>// Construct a ZonesQuery
         let query = ZonesQuery(limit: &lt;#T##UInt#&gt;, offset: &lt;#T##UInt#&gt;)
+        // query.zoneIDs = ["&lt;#zoneId1#&gt;", "&lt;#zoneId2#&gt;"]
+
         // Execute a request
-        ZoneRequest.Query(&lt;#T##ZonesQuery#&gt;, completion: &lt;#T##(zones: [Zone], pagination: Pager?, error: NSError?) -&gt; Void#&gt;).execute()</string>
+        ZoneRequest.Query(query, completion: &lt;#T##(zones: [Zone], pagination: Pager?, error: NSError?) -&gt; Void#&gt;).execute()</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>471E27AE-9CD3-487D-85A1-2FCA9FD744D0</string>
 	<key>IDECodeSnippetLanguage</key>
@@ -22,7 +24,7 @@
 	<key>IDECodeSnippetSummary</key>
 	<string>A request for a list of Zones using the default ZonesQuery</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Zone Request (Query)</string>
+	<string>[FLB-Swift]Zone Request (Query)</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
